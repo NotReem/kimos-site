@@ -1,0 +1,121 @@
+body{
+    background-image: url("./img/kimobackground.png");
+    text-align: center;
+    font-family: questrianregular;
+    background-attachment: fixed;
+}
+
+@font-face {
+  font-family: 'questrianregular';
+  src: url('questrian-webfont.woff2') format('woff2'),
+       url('questrian-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+.button {
+    overflow: hidden;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 25px 184px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #ffffff00;
+  }
+
+  #Button-Spotify a:hover{
+    background-color: #ffffff59;
+  }
+
+
+.button2 {
+    background-color: #19577a;
+    border: none;
+    color: white;
+    padding: 25px 184px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #ffffff00;
+  }
+  #Button-Twitter a:hover{
+    background-color: #ffffff59;
+  }
+.button3 {
+    background-color: #8a1010;
+    border: none;
+    color: white;
+    padding: 25px 180px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #ffffff00;
+    margin-bottom: 45px;
+  }
+  #Button-Ytb a:hover{
+    background-color: #ffffff59;
+  }
+  .button4 {
+    background-color: #35108a;
+    border: none;
+    color: white;
+    padding: 25px 184px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #ffffff00;
+    
+  }
+  #Button-Twitch a:hover{
+    background-color: #ffffff59;
+  }
+#Logo{
+
+    margin-bottom: 50px;
+    border-style: solid;
+    border-radius: 500px;
+    border-color: white;
+    width: 350px;
+    height: 350px;
+
+}
+
+#main{
+    background-color: #00678D;
+    width: 500px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #ffffff00;
+
+}
+
+#text {
+    margin-top: 70px;
+    font-family: questrianregular;
+    color: #ffffff;
+    font-size: 30px;
+}
